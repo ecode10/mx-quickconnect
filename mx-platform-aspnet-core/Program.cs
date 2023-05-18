@@ -13,8 +13,8 @@ var app = builder.Build();
 
 var config = builder.Configuration
     .GetSection("MXClientConfiguration").Get<Configuration>();
-config.Username = Environment.GetEnvironmentVariable("CLIENT_ID");
-config.Password = Environment.GetEnvironmentVariable("API_KEY");
+config.Username = "545e20d3-9a23-4ebf-bbb0-6bd8acdc24c0";//Environment.GetEnvironmentVariable("CLIENT_ID");
+config.Password = "0b2176e9c784aba6c368e6d1c70ba0436908fd3b";// Environment.GetEnvironmentVariable("API_KEY");
 
 var apiInstance = new MxPlatformApi(config);
 
@@ -84,6 +84,7 @@ app.MapPost("/api/get_mxconnect_widget_url", (IConfiguration config, HttpRequest
 app.MapGet("/users/{userGuid}/members/{memberGuid}/verify",
     (string userGuid, string memberGuid) =>
 {
+    
   var result = apiInstance.ListAccountNumbersByMember(memberGuid, userGuid);
 
   return ConvertToSnakeCase(result);
