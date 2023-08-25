@@ -27,7 +27,7 @@ var contractResolver = new DefaultContractResolver
 UserResponseBody CreateUser()
 {
   var requestBody = new UserCreateRequestBody(
-    user: new UserCreateRequest(
+    user: new UserCreateRequest(email: "a@a.com.br",
       metadata: "Creating a user!"
     )
   );
@@ -47,7 +47,7 @@ string ConvertToSnakeCase(object camelized)
 // Api scoped
 app.MapGet("/api/users", () =>
 {
-  return ConvertToSnakeCase(apiInstance.ListUsers());
+  return ConvertToSnakeCase(apiInstance.ListUsers().Users);
 });
 
 app.MapDelete("/api/user/{guid}", (string guid) =>

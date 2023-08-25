@@ -1,34 +1,47 @@
 ﻿<Properties StartupConfiguration="{29B47CFE-D120-4ABE-B800-7963588B36C8}|dotnet">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/mauriciojunior/Documents/GitHub/mx-quickconnect/mx-platform-aspnet-core/Program.cs" relfile="Program.cs" line="14" column="1" />
       <Breakpoint file="/Users/mauriciojunior/Documents/GitHub/mx-quickconnect/mx-platform-aspnet-core/Program.cs" relfile="Program.cs" line="62" column="1" />
+      <Breakpoint file="/Users/mauriciojunior/Documents/GitHub/mx-quickconnect/mx-platform-aspnet-core/Program.cs" relfile="Program.cs" line="50" column="1" />
+      <Breakpoint file="/Users/mauriciojunior/Documents/GitHub/mx-quickconnect/mx-platform-aspnet-core/Program.cs" relfile="Program.cs" line="14" column="1" />
+      <Breakpoint file="/Users/mauriciojunior/Documents/GitHub/mx-quickconnect/mx-platform-aspnet-core/Program.cs" relfile="Program.cs" line="40" column="1" />
+      <Breakpoint file="/Users/mauriciojunior/Documents/GitHub/mx-quickconnect/mx-platform-aspnet-core/Program.cs" relfile="Program.cs" line="29" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="87" Column="5" />
-      <File FileName="appsettings.json" Line="21" Column="16" />
+      <File FileName="Program.cs" Line="50" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
       <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="15" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="mx-platform-aspnet-core" expanded="True">
-            <Node name="mx-platform-aspnet-core" expanded="True">
+          <Node name="mx-platform-aspnet-core">
+            <Node name="mx-platform-aspnet-core">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>StackTrace</Value>
+          <Value>StackTrace</Value>
+          <Value>StackTrace</Value>
+          <Value>Message</Value>
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.mx-platform-aspnet-core PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
 </Properties>
